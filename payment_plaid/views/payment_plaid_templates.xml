@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="redirect_form">
+        <div class="o_plaid_integration"
+        t-att-data-provider-id="provider_id"
+        t-att-data-plaid-language="lc"
+        t-att-data-plaid-url="api_url"
+        t-att-data-first-name="first_name"
+        t-att-data-last-name="last_name"
+        t-att-data-plaid-webhook="plaid_webhook"
+        t-att-data-plaid-redirect="plaid_redirect"
+        />
+    </template>
+</odoo>
